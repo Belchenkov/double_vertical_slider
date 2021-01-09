@@ -24,6 +24,7 @@ body {
   position: absolute;
   top: 0;
   left: 0;
+  transition: transform .5s ease-in-out;
 }
 
 .left-slide > div {
@@ -49,6 +50,7 @@ body {
   top: 0;
   left: 35%;
   width: 65%;
+  transition: transform .5s ease-in-out;
 }
 
 .right-slide > div {
@@ -68,10 +70,6 @@ button {
   padding: 15px;
   transition: .3s ease-in;
   box-shadow: 0 0 6px rgba(0, 0, 0, .6);
-}
-
-button i {
-
 }
 
 button:hover {
